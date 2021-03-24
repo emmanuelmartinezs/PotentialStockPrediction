@@ -1,5 +1,5 @@
 # CRYPTO CRYSTAL BALL
-![logo](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/Header.jpg?raw=true)
+![logo](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/Header.jpg?raw=true)
 
 
 ## Machine Learning Model - Final Project 2021
@@ -39,10 +39,79 @@ The disadvantages of support vector machines include:
 
 The support vector machines in scikit-learn support both dense (`numpy.ndarray` and convertible to that by `numpy.asarray`) and sparse (any `scipy.sparse`) sample vectors as input. However, to use an SVM to make predictions for sparse data, it must have been fit on such data. For optimal performance, use C-ordered `numpy.ndarray` (dense) or `scipy.sparse.csr_matrix` (sparse) with `dtype=float64`.
 
+
+## Yahoo! Finance as Machine Learning Prediction over the Most US Volatile Stocks 
+
+In our final project, our team inegrated several Jupyter Notebook Modules, Packages and installed multiples Python Libraries to integrate our SVR Module to predict in our 2021 volatile exchange marcket in US. 
+
+Please find below our Machine Learning Solution:
+
+## CORE CODE:
+
+![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/ML_Yahoo_Finance_Stock%20-%20Part%201.JPG?raw=true)
+
+![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/ML_Yahoo_Finance_Stock%20-%20Part%202.JPG?raw=true)
+
+![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/ML_Yahoo_Finance_Stock%20-%20Part%203.JPG?raw=true)
+
+![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/ML_Yahoo_Finance_Stock%20-%20Part%204.JPG?raw=true)
+
+![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/ML_Yahoo_Finance_Stock%20-%20Part%205.JPG?raw=true)
+
+![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/ML_Yahoo_Finance_Stock%20-%20Part%206.JPG?raw=true)
+
+![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/ML_Yahoo_Finance_Stock%20-%20Part%207.JPG?raw=true)
+
+## MACHINE LEARNING RESULTS:
+
+![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%231.JPG?raw=true)
+
+![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%232.JPG?raw=true)
+
+![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%233.JPG?raw=true)
+
+![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%234.JPG?raw=true)
+
+![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%235.JPG?raw=true)
+
+
+
+### Regression
+
+The method of Support Vector Classification can be extended to solve regression problems. This method is called Support Vector Regression.
+
+The model produced by support vector classification (as described above) depends only on a subset of the training data, because the cost function for building the model does not care about training points that lie beyond the margin. Analogously, the model produced by Support Vector Regression depends only on a subset of the training data, because the cost function for building the model ignores any training data close to the model prediction.
+
+There are three different implementations of Support Vector Regression: `SVR`, `NuSVR` and `LinearSVR`. `LinearSVR` provides a faster implementation than `SVR` but only considers linear kernels, while `NuSVR` implements a slightly different formulation than `SVR` and `LinearSVR`. See Implementation details for further details.
+
+As with classification classes, the fit method will take as argument vectors X, y, only that in this case y is expected to have floating point values instead of integer values:
+
+````Python
+>>> from sklearn import svm
+>>> X = [[0, 0], [2, 2]]
+>>> y = [0.5, 2.5]
+>>> clf = svm.SVR()
+>>> clf.fit(X, y) 
+SVR(C=1.0, cache_size=200, coef0=0.0, degree=3, epsilon=0.1, gamma='auto',
+    kernel='rbf', max_iter=-1, shrinking=True, tol=0.001, verbose=False)
+>>> clf.predict([[1, 1]])
+array([ 1.5])
+```` 
+Examples:
+[Support Vector Regression (SVR) using linear and non-linear kernels](https://sklearn.org/auto_examples/svm/plot_svm_regression.html#sphx-glr-auto-examples-svm-plot-svm-regression-py)
+
+### Mathematical Formulation
+
+A support vector machine constructs a hyper-plane or set of hyper-planes in a high or infinite dimensional space, which can be used for classification, regression or other tasks. Intuitively, a good separation is achieved by the hyper-plane that has the largest distance to the nearest training data points of any class (so-called functional margin), since in general the larger the margin the lower the generalization error of the classifier.
+
+![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/mf1.png?raw=true)
+
+
+
 ### Classification
 `SVC`, `NuSVC` and `LinearSVC` are classes capable of performing multi-class classification on a dataset.
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/SVC_Class.png?raw=true)
+![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/SVC_Class.png?raw=true)
 
 
 `SVC` and `NuSVC` are similar methods, but accept slightly different sets of parameters and have different mathematical formulations (see section Mathematical formulation). On the other hand, `LinearSVC` is another implementation of Support Vector Classification for the case of a linear kernel. Note that `LinearSVC` does not accept keyword `kernel`, as this is assumed to be linear. It also lacks some of the members of `SVC` and `NuSVC`, like `support_`.
@@ -122,72 +191,6 @@ See [Mathematical formulation](https://sklearn.org/modules/svm.html#svm-mathemat
 
 Note that the LinearSVC also implements an alternative multi-class strategy, the so-called multi-class SVM formulated by Crammer and Singer, by using the option multi_class='crammer_singer'. This method is consistent, which is not true for one-vs-rest classification. In practice, one-vs-rest classification is usually preferred, since the results are mostly similar, but the runtime is significantly less.
 
-### Regression
-
-The method of Support Vector Classification can be extended to solve regression problems. This method is called Support Vector Regression.
-
-The model produced by support vector classification (as described above) depends only on a subset of the training data, because the cost function for building the model does not care about training points that lie beyond the margin. Analogously, the model produced by Support Vector Regression depends only on a subset of the training data, because the cost function for building the model ignores any training data close to the model prediction.
-
-There are three different implementations of Support Vector Regression: `SVR`, `NuSVR` and `LinearSVR`. `LinearSVR` provides a faster implementation than `SVR` but only considers linear kernels, while `NuSVR` implements a slightly different formulation than `SVR` and `LinearSVR`. See Implementation details for further details.
-
-As with classification classes, the fit method will take as argument vectors X, y, only that in this case y is expected to have floating point values instead of integer values:
-
-````Python
->>> from sklearn import svm
->>> X = [[0, 0], [2, 2]]
->>> y = [0.5, 2.5]
->>> clf = svm.SVR()
->>> clf.fit(X, y) 
-SVR(C=1.0, cache_size=200, coef0=0.0, degree=3, epsilon=0.1, gamma='auto',
-    kernel='rbf', max_iter=-1, shrinking=True, tol=0.001, verbose=False)
->>> clf.predict([[1, 1]])
-array([ 1.5])
-```` 
-Examples:
-[Support Vector Regression (SVR) using linear and non-linear kernels](https://sklearn.org/auto_examples/svm/plot_svm_regression.html#sphx-glr-auto-examples-svm-plot-svm-regression-py)
-
-### Mathematical Formulation
-
-A support vector machine constructs a hyper-plane or set of hyper-planes in a high or infinite dimensional space, which can be used for classification, regression or other tasks. Intuitively, a good separation is achieved by the hyper-plane that has the largest distance to the nearest training data points of any class (so-called functional margin), since in general the larger the margin the lower the generalization error of the classifier.
-
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/mf1.png?raw=true)
-
-
-
-## Yahoo! Finance as Machine Learning Prediction over the Most US Volatile Stocks 
-
-In our final project, our team inegrated several Jupyter Notebook Modules, Packages and installed multiples Python Libraries to integrate our SVR Module to predict in our 2021 volatile exchange marcket in US. 
-
-Please find below our Machine Learning Solution:
-
-## CORE CODE:
-
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20Part%201.JPG?raw=true)
-
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20Part%202.JPG?raw=true)
-
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20Part%203.JPG?raw=true)
-
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20Part%204.JPG?raw=true)
-
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20Part%205.JPG?raw=true)
-
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20Part%206.JPG?raw=true)
-
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20Part%207.JPG?raw=true)
-
-## MACHINE LEARNING RESULTS:
-
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%231.JPG?raw=true)
-
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%232.JPG?raw=true)
-
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%233.JPG?raw=true)
-
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%234.JPG?raw=true)
-
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%235.JPG?raw=true)
-
 
 ### Theming and templates in Python
 
@@ -234,19 +237,19 @@ for template in ["plotly", "plotly_white", "plotly_dark", "ggplot2", "seaborn", 
 ````
 
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl1.JPG?raw=true)
+![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/pgl1.JPG?raw=true)
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl2.JPG?raw=true)
+![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/pgl2.JPG?raw=true)
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl3.JPG?raw=true)
+![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/pgl3.JPG?raw=true)
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl4.JPG?raw=true)
+![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/pgl4.JPG?raw=true)
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl5.JPG?raw=true)
+![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/pgl5.JPG?raw=true)
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl6.JPG?raw=true)
+![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/pgl6.JPG?raw=true)
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl7.JPG?raw=true)
+![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/pgl7.JPG?raw=true)
 
 
 
@@ -274,19 +277,19 @@ for template in ["plotly", "plotly_white", "plotly_dark", "ggplot2", "seaborn", 
 ````
 
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl8.JPG?raw=true)
+![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/pgl8.JPG?raw=true)
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl9.JPG?raw=true)
+![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/pgl9.JPG?raw=true)
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl10.JPG?raw=true)
+![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/pgl10.JPG?raw=true)
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl11.JPG?raw=true)
+![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/pgl11.JPG?raw=true)
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl12.JPG?raw=true)
+![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/pgl12.JPG?raw=true)
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl13.JPG?raw=true)
+![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/pgl13.JPG?raw=true)
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl14.JPG?raw=true)
+![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/pgl14.JPG?raw=true)
 
 
 
@@ -313,7 +316,7 @@ fig = px.scatter(df_2007,
 fig.show()
 ````
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl15.JPG?raw=true)
+![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/pgl15.JPG?raw=true)
 
 
 ### Disable default theming
