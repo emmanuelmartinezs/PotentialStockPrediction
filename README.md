@@ -243,14 +243,6 @@ for template in ["plotly", "plotly_white", "plotly_dark", "ggplot2", "seaborn", 
 
 ![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/pgl3.JPG?raw=true)
 
-![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/pgl4.JPG?raw=true)
-
-![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/pgl5.JPG?raw=true)
-
-![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/pgl6.JPG?raw=true)
-
-![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/pgl7.JPG?raw=true)
-
 
 
 ### Specifying themes in graph object figures
@@ -277,20 +269,9 @@ for template in ["plotly", "plotly_white", "plotly_dark", "ggplot2", "seaborn", 
 ````
 
 
-![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/pgl8.JPG?raw=true)
-
 ![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/pgl9.JPG?raw=true)
 
 ![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/pgl10.JPG?raw=true)
-
-![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/pgl11.JPG?raw=true)
-
-![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/pgl12.JPG?raw=true)
-
-![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/pgl13.JPG?raw=true)
-
-![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/pgl14.JPG?raw=true)
-
 
 
 ### Specifying a default themes
