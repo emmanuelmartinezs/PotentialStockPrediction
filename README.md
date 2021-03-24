@@ -1,4 +1,4 @@
-# CRYPTO CRYSTAL BALL
+# POTENTIAL STOCK PREDICTION
 ![logo](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/Header.jpg?raw=true)
 
 
