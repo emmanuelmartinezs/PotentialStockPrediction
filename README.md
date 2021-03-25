@@ -46,7 +46,9 @@ In our final project, our team inegrated several Jupyter Notebook Modules, Packa
 
 Please find below our Machine Learning Solution:
 
-## CORE CODE:
+## CORE CODE: (Jupyter Notebook / Python Print Screen Frames)
+
+> Part #1: Packages and Installation.
 
 ![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/ML_Yahoo_Finance_Stock%20-%20Part%201.JPG?raw=true)
 
@@ -54,9 +56,18 @@ Please find below our Machine Learning Solution:
 
 ![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/ML_Yahoo_Finance_Stock%20-%20Part%203.JPG?raw=true)
 
+
+> Part#2: Import Ipywidgets to Interact Jupyter Notebook with HTML
+
 ![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/ML_Yahoo_Finance_Stock%20-%20Part%204.JPG?raw=true)
 
+
+> Testing Interact Package:
+
 ![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/ML_Yahoo_Finance_Stock%20-%20Part%205.JPG?raw=true)
+
+
+> Core Code including SVR Model: 
 
 ![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/ML_Yahoo_Finance_Stock%20-%20Part%206.JPG?raw=true)
 
@@ -64,13 +75,23 @@ Please find below our Machine Learning Solution:
 
 ## MACHINE LEARNING RESULTS:
 
+> Option #1: 15 days Prediction (SVR Model) from DOGE-USD.
+
 ![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%231.JPG?raw=true)
+
+> Option #1: 30 days Prediction (SVR Model) from DOGE-USD.
 
 ![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%232.JPG?raw=true)
 
+> Price Date Tange Chart. 
+
 ![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%233.JPG?raw=true)
 
+> Price Comparison from DOGE-USR vs, a different Crypto:
+
 ![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%234.JPG?raw=true)
+
+> Past 180 days Stock / Crypto Analysis
 
 ![d1](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%235.JPG?raw=true)
 
