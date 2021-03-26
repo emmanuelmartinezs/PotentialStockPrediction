@@ -7,10 +7,10 @@
 **Download Presentation >** [Goodle Slide Presentation](https://docs.google.com/presentation/d/11-A77KxuFXHH2xDc9bvrYPjjifkujIl8LBE7ybXscUk/edit?usp=sharing)
 
 ## Team Members - Roles
- * Charlie Burd - Information Manager (Square)
- * Emmanuel Martinez - Tool Creation (Triangle)
- * George Quintanilla - Framework Creation (Circle)
-
+ * [Emmanuel Martinez](https://github.com/emmanuelmartinezs) - Tool Creation (Triangle)
+ * [George Quintanilla](https://github.com/AQUINT01) - Framework Creation (Circle)
+ * [Charlie Burd](https://github.com/charlieburd) - Information Manager (Square)
+ 
 ## Project Overview
 For our Columbia University Data Analytics Bootcamp Project our group analyzed cryptocurrencies in two stages to help predict the future price. The first stage was an analysis of the Top 5 most traded coins from 2016-2021, this was to educate both our group and the reader of the financial environment among cryptocurrencies. The second stage was creating a Machine Learning model that would predict these coins prices for the next 30 days.
 
