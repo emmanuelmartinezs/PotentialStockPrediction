@@ -1,6 +1,7 @@
-# CRYPTOCURRENCY CRYSTAL BALL (Part 1)
+# CRYPTOCURRENCY CRYSTAL BALL
 ![logo](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/Header.jpg?raw=true)
 
+## Final Project - Part 1
 ## Google Slides Link
 https://docs.google.com/presentation/d/11-A77KxuFXHH2xDc9bvrYPjjifkujIl8LBE7ybXscUk/edit?usp=sharing
 
@@ -24,9 +25,11 @@ Dashboard is hosted by Dash, it shows an interactive graph of the top 12 cryptoc
 ![logo](https://github.com/charlieburd/crypto_crystal_ball/blob/main/CrptoCrystalBall_DASHBOARD/assets/Dashboard.png)
 
 
-# POTENTIAL STOCK PREDICTION (Part 2)
+# POTENTIAL STOCK PREDICTION
 ![logo](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/Header.jpg?raw=true)
 
+
+## Final Project - Part 2
 
 ## Machine Learning Model - Final Project 2021
 
