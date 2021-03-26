@@ -1,5 +1,5 @@
 # CRYPTOCURRENCY CRYSTAL BALL
-![logo](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/Header.jpg?raw=true)
+![logo](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/Header.jpg?raw=true)
 
 ## Final Project - Part 1
 ## Google Slides Link
@@ -26,8 +26,6 @@ Dashboard is hosted by Dash, it shows an interactive graph of the top 12 cryptoc
 
 
 # POTENTIAL STOCK PREDICTION
-![logo](https://github.com/emmanuelmartinezs/PotentialStockPrediction/blob/main/Resources/Images/Header.jpg?raw=true)
-
 
 ## Final Project - Part 2
 
