@@ -6,6 +6,11 @@
 
 **Download Presentation >** [Goodle Slide Presentation](https://docs.google.com/presentation/d/11-A77KxuFXHH2xDc9bvrYPjjifkujIl8LBE7ybXscUk/edit?usp=sharing)
 
+## Team Members - Roles
+ * Charlie Burd - Information Manager (Square)
+ * Emmanuel Martinez - Tool Creation (Triangle)
+ * George Quintanilla - Framework Creation (Circle)
+
 ## Project Overview
 For our Columbia University Data Analytics Bootcamp Project our group analyzed cryptocurrencies in two stages to help predict the future price. The first stage was an analysis of the Top 5 most traded coins from 2016-2021, this was to educate both our group and the reader of the financial environment among cryptocurrencies. The second stage was creating a Machine Learning model that would predict these coins prices for the next 30 days.
 
@@ -32,12 +37,7 @@ Dashboard is hosted by Dash, it shows an interactive graph of the top 12 cryptoc
 
 ## Machine Learning Model - Final Project 2021
 
-In our final project, our team used Machine Learning Support Vector Regression (SVR) model as a Data Science and Analytics cryptocurrency prediction. Bitcoin and other Cryptocurrencies Price Prediction with Machine Learning for the Next 30 Days.
-
-## Team Members - Roles
- * Charlie Burd - Information Manager (Square)
- * Emmanuel Martinez - Tool Creation (Triangle)
- * George Quintanilla - Framework Creation (Circle)
+In our final project, our team used Machine Learning Support Vector Regression (SVR) model as a Data Science and Analytics cryptocurrency prediction. Bitcoin and other Cryptocurrencies Price Prediction with Machine Learning for the Next 15 and 30 Days.
 
 ## Resources and DataSets:
 This new assignment consists of three technical analysis deliverables and a proposal for further statistical study:
