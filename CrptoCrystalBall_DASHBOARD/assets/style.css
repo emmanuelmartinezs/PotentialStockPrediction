@@ -1,0 +1,64 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  font-size: 5em;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.25em;
+  color: white;
+  font-weight: 200;
+  font-family: sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.header {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  background: url("./Header.png") no-repeat center center;
+  background-size: cover;
+}
+
+.overlay {
+  padding: 1em;
+  width: 80%;
+  background-color: rgba(0,0,0,0.75);
+  margin: auto;
+}
+
+.half-column {
+  width: 50%;
+}
+
+.column-wrapper {
+  display: flex;
+  margin-top: 2em;
+}
+
+.graph-wrapper {
+  margin-top: 1em;
+}
+
+.dashboard-wrapper {
+  padding: 20px;
+}
+
+
+#dropdown {
+  margin-right: 3em;
+}
+
+#disclaimer {
+  color: white;
+  font-style: italic;
+  font-size: 1em;
+  font-weight: 300;
+  font-family: sans-serif;
+}
